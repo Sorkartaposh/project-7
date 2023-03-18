@@ -1,0 +1,608 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar form input{
+        height: 45px;
+        width: 200px;
+    }
+    .navbar-nav  li {
+        margin-left: 15px;
+    }
+    .navform {
+        display: none;
+    }
+
+
+    .follow-left h4{
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        margin-top: 145px;
+    }
+    .follow-left a {
+        font-size: 21px;
+        margin-top: 40px;
+        margin-bottom: 120px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar form input {
+        width: 100%;
+    }
+    .navbar-nav  li {
+        margin-left: 0;
+        margin-top: 18px;
+    }
+    .navbar form {
+        margin-top: 20px;
+    }
+    .navbar-form {
+        display: none;
+    }
+    .navform {
+        display: block;
+    }
+
+    .p-features-area {
+        padding: 15px 0;
+    }
+
+
+    .launches-item h1 {
+        font-size: 50px;
+    }
+    .launches-item p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom:40px;
+        margin-top:40px;
+    }
+    .launches-item a {
+        font-size: 20px;
+        width: 200px;
+        height: 45px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .follow-us-area {
+        margin-top: 80px;
+    }
+    .follow-left {
+        width: 100%;
+        border: 1px solid #707070;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .follow-left h4{
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        margin-top: 150px;
+    }
+    .follow-left a {
+        font-size: 21px;
+        width: 200px;
+        height: 45px;
+        margin-top: 45px;
+        margin-bottom: 200px;
+    
+    }
+    .follow-us-area img {
+        width: 100% !important;
+      }
+
+      .top-brand-area {
+        margin-top:40px;
+    }
+
+    .top-brand-text h2 {
+        font-size:35px;
+    }
+    .top-brand-text p {
+        margin-top: 20px;
+    }
+    .explore-area {
+        margin-top:30px;
+    }
+    .explore-header h2 {
+        font-size: 35px;
+    }
+    .explore-header p {
+        margin-top: 20px;
+    }
+    .explore-header {
+        margin-bottom: 30px;
+    }
+    .explore-item {
+        width:30%;
+        margin-bottom: 40px;
+    }
+    .explore-item h4 {
+        font-size: 22px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .explore-btn a {
+        margin-top:0;
+    }
+
+
+    .fitness-area {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    .fitness-item {
+        width: 473px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fitness-item h3 {
+        font-size: 40px;
+    }
+    .fitness-item a  {
+        margin-top:40px;
+    }
+    .weekly-area {
+        margin-bottom:115px;
+    }
+    footer {
+        padding-bottom:50px !important;
+    }
+    .footer-item p {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .footer-item h3 {
+        margin-bottom:20px;
+    }
+
+    .footer-item ul li {
+        margin-bottom: 12px;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+    .navbar form input {
+        width: 100%;
+    }
+    .navbar-nav  li {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .navbar-form {
+        display: none;
+    }
+    .navform {
+        display: block;
+    }
+    .navbar form {
+        margin-top: 20px;
+    }
+
+.navbar-form {
+    display: none;
+}
+.navform {
+    display: block;
+}
+
+
+
+
+.launches-item {
+    margin-top:50px;
+    margin-left:50px;
+}
+.launches-item h1 {
+    font-size: 40px;
+}
+.launches-item p {
+    font-size: 17px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.launches-item a {
+    font-size: 20px;
+    width: 170px;
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.wrap li.active {
+  z-index: 0;
+  opacity: 1;
+  transform: scale(2.5);
+}
+
+.wrap li.left1 {
+  transform: translateX(-120%) scale(1);
+  opacity: 1;
+}
+
+.follow-us-area {
+    margin-top: 50px;
+}
+.follow-left {
+    width: 100%;
+    border: 1px solid #707070;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.follow-left h4{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.follow-left a {
+    font-size: 21px;
+    width: 200px;
+    height: 45px;
+    margin-top: 45px;
+    margin-bottom: 150px;
+
+}
+.follow-us-area img {
+    width: 100% !important;
+  }
+
+  .top-brand-area {
+    margin-top:40px;
+}
+
+.top-brand-text h2 {
+    font-size:30px;
+}
+.top-brand-text p {
+    margin-top: 20px;
+}
+.explore-area {
+    margin-top:30px;
+}
+.explore-header h2 {
+    font-size: 30px;
+}
+.explore-header p {
+    margin-top: 15px;
+}
+.explore-header {
+    margin-bottom: 30px;
+}
+.explore-item {
+    width:46%;
+    margin-bottom: 40px;
+}
+.explore-item h4 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.explore-btn a {
+    margin-top:0;
+}
+
+
+.fitness-bg {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-right: 0;
+    background-position:left;
+}
+.fitness-item {
+    width: 420px;
+    margin-left: auto;
+    padding: 30px;
+}
+.fitness-area {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.fitness-item {
+    width: 473px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fitness-item h3 {
+    font-size: 25px;
+    line-height:35px;
+}
+.fitness-item a  {
+    margin-top:20px;
+}
+.weekly-area {
+    margin-bottom:50px;
+}
+
+.goodbye-bg {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    padding-right: 0;
+    margin-bottom: 10px;
+    background-position:right;
+}
+
+footer {
+    padding-bottom:50px !important;
+}
+.footer-item p {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.footer-item h3 {
+    margin-bottom:20px;
+}
+
+.footer-item ul li {
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+    .navbar form input {
+        width: 100%;
+    }
+    .navbar-nav  li {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .navbar-form {
+        display: none;
+    }
+    .navform {
+        display: block;
+    }
+
+
+    .header-top h6 {
+        font-size: 13px;
+    }
+    .launches-item {
+        margin-top:30px;
+        margin-left:30px;
+    }
+    .launches-item h1 {
+        font-size: 25px;
+    }
+    .launches-item p {
+        font-size: 17px;
+        margin-bottom:10px;
+        margin-top:10px;
+    }
+    .launches-item a {
+        max-width: 120px !important;
+        height: 45px;
+        margin-top: 10px;
+        font-size: 17px;
+        width: 170px;
+        height: 45px;
+        margin-bottom: 30px;
+    }
+    
+
+    .wrap li.right1 {
+      transform: translateX(120%) scale(1);
+      opacity: 1;
+      z-index: 2;
+    }
+        
+    
+    .follow-us-area {
+        margin-top: 30px;
+    }
+    .follow-left {
+        width: 100%;
+        border: 1px solid #707070;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .follow-left h4{
+        font-size: 18px;
+        margin-top: 70px;
+    }
+    .follow-left a {
+        font-size: 18px;
+        max-width: 140px;
+        height: 45px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+    
+    }
+    .follow-us-area img {
+        width: 100% !important;
+      }
+    
+      .top-brand-area {
+        margin-top:30px;
+    }
+    
+    .top-brand-text h2 {
+        font-size:25px;
+    }
+    .top-brand-text p {
+        margin-top: 15px;
+    }
+    .explore-area {
+        margin-top:20px;
+    }
+    .explore-header h2 {
+        font-size: 25px;
+    }
+    .explore-header p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .explore-header {
+        margin-bottom: 30px;
+    }
+    .explore-item {
+        width:80%;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .explore-item h4 {
+        font-size: 19px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .explore-btn a {
+        width: 140px;
+        margin-top:0;
+    }
+    
+    
+    .fitness-bg {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-right: 0;
+        background-position:left;
+    }
+    .fitness-item {
+        width: 350px !important;
+        margin-left: auto;
+        padding: 30px;
+    }
+    .fitness-area {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .fitness-item {
+        width: 473px;
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fitness-item h3 {
+        font-size: 25px;
+        line-height:35px;
+    }
+    .weekly-header h2 {
+        font-size: 30px;
+    }
+    .fitness-item a  {
+        margin-top:20px;
+    }
+    .weekly-header p {
+        font-size: 18px;
+        margin-top:10px;
+        margin-bottom: 30px;
+    }
+    .weekly-area {
+        margin-bottom:50px;
+    }
+    
+    .goodbye-bg {
+        padding-top: 80px;
+        padding-bottom: 70px;
+        padding-right: 0;
+        margin-bottom: 10px;
+        background-position:right;
+    }
+    
+    footer {
+        padding-bottom:50px !important;
+    }
+    .footer-item p {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .footer-item h3 {
+        margin-bottom:20px;
+    }
+    
+    .footer-item ul li {
+        margin-bottom: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
